@@ -26,18 +26,3 @@ x get location returns the time in CT instead of the time stamp
 x get location also returns the place (city/state) of iss
 x get location throws an exception if service is unreachable
 x get location throws an exception if service returns an access error
-
-#Feedback: 
-Let's write a program to print the details we expect, using the functions we designed so far
-Let's modify the build so that when we run
-
-paver
-it runs the tests
-
-paver run
-runs the program.
-
-Also, let us perform some final checks:
-If we disconnect from the network, does the program fail gracefully displaying readable message?
-
-Let's check to make sure that only a total of two tests talk to the network and none others.
